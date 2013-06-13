@@ -1,0 +1,36 @@
+QPushButton {
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #dddddd, stop: 1 #808080);
+	border: 2px solid #666666;
+	border-radius: 6px;
+	color: #444444;
+	font-size: 16px;
+	min-height: 30px;
+	min-width: 30px;
+	padding: 5px;
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+Button {
+	border-color: #333333;
+	font: bold 24px;
+}
+
+Button[state='0'] {
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #333333, stop: 1 #808080);
+	color: #f8f8f8;
+}
+
+Button[state='1'] {
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #808080, stop: 1 #dddddd);
+	border-color: #666666;
+	color: #eeeeee;
+}
+
+Button[state='2'] {
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ff9900, stop: 1 #884400);
+	color: #ffffff;
+}
+
