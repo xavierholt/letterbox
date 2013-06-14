@@ -1,24 +1,22 @@
-# LetterBox
+## LetterBox
 
 Tri-state toggle buttons for the English alphabet.
 
-Written and maintained by Xavier Holt.
+Written and maintained by Kevin Burk.
 
 xavierholt@gmail.com
 
-## Overview
+### Overview
 
 The other day, I was playing a word game.  This involved writing down all the
 letters in the alphabet, then marking them as "definitely in" or "definitely
-out" as I got more information.
-
-After writing the entire alphabet four or five times (A horrible ordeal - do
-you have any idea how _long_ the alphabet is!?), I realized, "I could make a
-computer do this for me."
+out" as I got more information.  After writing the entire alphabet four or five
+times (A horrible ordeal - do you have any idea how _long_ the alphabet is!?),
+I realized, "I could make a computer do this for me."
 
 This is the result.
 
-## Compiling (on Linux)
+### Compiling (on Linux)
 
 _NOTE:_  LetterBox uses the Qt 4 user interface libraries.  Make sure you have
 these - and their development headers - before you try to compile.
@@ -51,7 +49,7 @@ the "delete" key on your keyboard.
 
 And that's all there is to it.  Enjoy!
 
-## Tweaking
+### Tweaking
 
 If you want to change the colors, edit styles.css and restart.  If you've done
 any web design, you'll know exactly what to do, but it's a simple enough file
